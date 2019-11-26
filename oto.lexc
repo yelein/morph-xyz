@@ -1,0 +1,32 @@
+Multichar_Symbols
+
+%<n%>                ! Nombre
+%<comp%>             ! Composición
+%+
+
+LEXICON Root
+Nouns;
+Pref;
+
+
+LEXICON Pref
+
+ntsi%<dim%>%+:ntsi Nouns;
+%<comp%>:Nouns;
+%<1poss%>:ma Nouns;
+
+
+LEXICON N
+
+%+
+
+#;
+
+LEXICON Nouns
+ngu%<n%>:ngu N ; ! "casa"
+nxadi%<n%>:nxadi N ; ! "estudiante"
+dehe%<n%>:dehe N ; ! "agua"
+dehe%<n%>:the N ; ! "agua"
+ngi%<n%>:ngi N ; ! "jugo"
+tsat'yo%<n%>:tsat'yo N ; ! "perro"
+ndoni%<n%>:ndoni N ; ! "borrego"
