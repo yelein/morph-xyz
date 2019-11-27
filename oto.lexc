@@ -2,7 +2,8 @@ Multichar_Symbols
 
 %<n%>                ! Nombre
 %<comp%>             ! Composición
-%+
+%<poss%>             ! Posesivo
+%<det%>              ! Determinante
 
 LEXICON Root
 Nouns;
@@ -12,13 +13,16 @@ Pref;
 LEXICON Pref
 
 ntsi%<dim%>%+:ntsi Nouns;
-%<comp%>:Nouns;
-%<1poss%>:ma Nouns;
-
+ma%<1poss%>%+:ma Nouns;
+ni%<2poss%>%+:ni Nouns;
+na%<3poss%>%+:na Noun;
+'na%<detsg%>%+:'na Noun;
+ya%<detpl%>%+:ya Noun
 
 LEXICON N
 
-%+
+%+%<comp%>:Nouns;
+
 
 #;
 
