@@ -9,24 +9,22 @@ LEXICON Root
 Nouns;
 Pref;
 
-
 LEXICON Pref
 
-ntsi%<dim%>%+:ntsi Nouns;
-ma%<1poss%>%+:ma Nouns;
-ni%<2poss%>%+:ni Nouns;
-na%<3poss%>%+:na Noun;
-'na%<detsg%>%+:'na Noun;
-ya%<detpl%>%+:ya Noun
+%<dim%>%+:ntsi%> Nouns;
+%<px1%>:ma%> Nouns;
+%<px2%>:ni%> Nouns;
+%<px3%>:na%> Nouns;
+%<detsg%>:'na%> Nouns;
+%<detpl%>:ya%> Nouns ;
 
 LEXICON N
 
-%+%<comp%>:Nouns;
-
-
-#;
+%+%<comp%>: Nouns;
+# ;
 
 LEXICON Nouns
+
 ngu%<n%>:ngu N ; ! "casa"
 nxadi%<n%>:nxadi N ; ! "estudiante"
 dehe%<n%>:dehe N ; ! "agua"
