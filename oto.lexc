@@ -4,6 +4,11 @@ Multichar_Symbols
 %<comp%>             ! Composición
 %<poss%>             ! Posesivo
 %<det%>              ! Determinante
+%<aniñ%>             ! Habla aniñada
+%{aniñ%}
+%<px3%>              ! Posesivo3
+%<px1%>              ! Posesivo1
+%<px2%>              ! Posesivo2
 
 LEXICON Root
 Nouns;
@@ -20,8 +25,8 @@ LEXICON Pref
 
 LEXICON N
 
-%+%<comp%>: Nouns;
-# ;
+  # ;
+%<aniñ%>:%>%{aniñ%} # ;
 
 LEXICON Nouns
 
@@ -31,4 +36,10 @@ dehe%<n%>:dehe N ; ! "agua"
 dehe%<n%>:the N ; ! "agua"
 ngi%<n%>:ngi N ; ! "jugo"
 tsat'yo%<n%>:tsat'yo N ; ! "perro"
-ndoni%<n%>:ndoni N ; ! "borrego"
+ndöni%<n%>:ndöni N ; ! "borrego"
+stu%<n%>:tsu N ; ! "mujer"
+dotsų%<n%>:dotsų N; !"apoyo"
+tsö%<n%>:tsö N; ! "estella"
+buętsu%<n%>:buętsu N ; ! "abuela"
+tsohqui%<n%>:tsohqui N; ! "pecado"
+botsi%<n%>:botsi N; ! "niño"
