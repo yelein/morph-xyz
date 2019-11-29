@@ -9,5 +9,5 @@ a b c d e ë ę g h i j m n ñ o ö  p q r s t  u ų w
 "Rules 
 
 
-"quitar fronteras de morfema  
+"quitar fronteras de morfema"  
 %>:0 <=> _;
