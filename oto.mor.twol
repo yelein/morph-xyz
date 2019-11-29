@@ -1,22 +1,14 @@
 Alphabet
 a b c d e ë ę g h i j m n ñ o ö  p q r s t  u ų w
 
-%{aniñ%}:0
+%{0%}:0
 
 %>:0
 
 ;
 
-Sets
+"Rules 
 
-Vow = a e i o u ö ų ë ę ;
 
-Rules
-"Aniñamiento ts (ch) t"
-t:c <=>   _ s: Vow: %>: %{aniñ%}:;
-
-"Aniñamiento ts (ch) h"
-s:h <=>   t:c _ Vow: %>: %{aniñ%}: ;
-
-! a > b u ę t s u > {aniñ}
-! a 0 b u ę c h u 0  0
+"quitar fronteras de morfema  
+%>:0 <=> _;
