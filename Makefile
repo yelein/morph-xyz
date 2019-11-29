@@ -19,3 +19,5 @@ oto.mor.hfstol: oto.mor.hfst
 oto.mor.twol.hfst: oto.mor.twol
 	hfst-twolc oto.mor.twol.hfst -o oto.mor.hsft
 	
+oto.seg.hfst: oto.mor.hsft oto.gen.hfst
+	hfst-compose -1 oto.mor.hfst 2 oto.gen.hfst -o oto.seg.hsft
